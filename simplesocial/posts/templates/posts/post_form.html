@@ -1,0 +1,12 @@
+{% extends "posts/post_base.html" %}
+
+{% load bootstrap3 %}
+
+{% block post_content %}
+<h4>Crear una duda nueva</h4>
+<form method="POST" action="{% url 'posts:create' %}" id="postForm">
+	{% csrf_token %}
+	{% bootstrap_form form %}
+	<input type="submit" value="Publicar" class="btn btn-success">
+</form>
+{% endblock %}
