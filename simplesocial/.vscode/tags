@@ -1,0 +1,237 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+0001_initial.py	../accounts/migrations/0001_initial.py	1;"	kind:file	line:1
+0001_initial.py	../groups/migrations/0001_initial.py	1;"	kind:file	line:1
+0001_initial.py	../posts/migrations/0001_initial.py	1;"	kind:file	line:1
+0001_initial.py	../quiz/migrations/0001_initial.py	1;"	kind:file	line:1
+ALLOWED_HOSTS	../simplesocial/settings.py	/^ALLOWED_HOSTS = []$/;"	kind:variable	line:28
+AUTH_PASSWORD_VALIDATORS	../simplesocial/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	kind:variable	line:93
+AccountsConfig	../accounts/apps.py	/^class AccountsConfig(AppConfig):$/;"	kind:class	line:4
+BASE_DIR	../simplesocial/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	kind:variable	line:16
+Contenido	../simplesocial/views.py	/^class Contenido(TemplateView):$/;"	kind:class	line:20
+CreateGroup	../groups/views.py	/^class CreateGroup(LoginRequiredMixin, generic.CreateView):$/;"	kind:class	line:14
+CreatePost	../posts/views.py	/^class CreatePost(LoginRequiredMixin, SelectRelatedMixin, generic.CreateView):$/;"	kind:class	line:53
+DATABASES	../simplesocial/settings.py	/^DATABASES = {$/;"	kind:variable	line:82
+DEBUG	../simplesocial/settings.py	/^DEBUG = True$/;"	kind:variable	line:26
+DeletePost	../posts/views.py	/^class DeletePost(LoginRequiredMixin, SelectRelatedMixin, generic.DeleteView):$/;"	kind:class	line:70
+Ejercicios	../simplesocial/views.py	/^class Ejercicios(TemplateView):$/;"	kind:class	line:28
+Group	../groups/models.py	/^class Group(models.Model):$/;"	kind:class	line:19
+GroupMember	../groups/models.py	/^class GroupMember(models.Model):$/;"	kind:class	line:42
+GroupMemberInline	../groups/admin.py	/^class GroupMemberInline(admin.TabularInline):$/;"	kind:class	line:6
+GroupsConfig	../groups/apps.py	/^class GroupsConfig(AppConfig):$/;"	kind:class	line:4
+HomePage	../simplesocial/views.py	/^class HomePage(TemplateView):$/;"	kind:class	line:11
+INSTALLED_APPS	../simplesocial/settings.py	/^INSTALLED_APPS = [$/;"	kind:variable	line:33
+JoinGroup	../groups/views.py	/^class JoinGroup(LoginRequiredMixin, generic.RedirectView):$/;"	kind:class	line:25
+LANGUAGE_CODE	../simplesocial/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	kind:variable	line:112
+LOGIN_REDIRECT_URL	../simplesocial/settings.py	/^LOGIN_REDIRECT_URL = "test"$/;"	kind:variable	line:129
+LOGOUT_REDIRECT_URL	../simplesocial/settings.py	/^LOGOUT_REDIRECT_URL = "thanks"$/;"	kind:variable	line:130
+LeaveGroup	../groups/views.py	/^class LeaveGroup(LoginRequiredMixin, generic.RedirectView):$/;"	kind:class	line:45
+ListGroups	../groups/views.py	/^class ListGroups(generic.ListView):$/;"	kind:class	line:21
+MIDDLEWARE	../simplesocial/settings.py	/^MIDDLEWARE = [$/;"	kind:variable	line:48
+Meta	../accounts/forms.py	/^    class Meta:$/;"	kind:class	line:6
+Meta	../groups/models.py	/^    class Meta:$/;"	kind:class	line:38
+Meta	../groups/models.py	/^    class Meta:$/;"	kind:class	line:49
+Meta	../posts/forms.py	/^    class Meta:$/;"	kind:class	line:7
+Meta	../posts/models.py	/^    class Meta:$/;"	kind:class	line:36
+Migration	../accounts/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:11
+Migration	../groups/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:10
+Migration	../posts/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:10
+Migration	../quiz/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Post	../posts/models.py	/^class Post(models.Model):$/;"	kind:class	line:13
+PostDetail	../posts/views.py	/^class PostDetail(SelectRelatedMixin, generic.DetailView):$/;"	kind:class	line:42
+PostForm	../posts/forms.py	/^class PostForm(forms.ModelForm):$/;"	kind:class	line:6
+PostList	../posts/views.py	/^class PostList(SelectRelatedMixin, generic.ListView):$/;"	kind:class	line:17
+PostsConfig	../posts/apps.py	/^class PostsConfig(AppConfig):$/;"	kind:class	line:4
+Question	../quiz/models.py	/^class Question(models.Model):$/;"	kind:class	line:4
+Question	../quiz/views.py	/^class Question(LoginRequiredMixin, generic.ListView):$/;"	kind:class	line:10
+QuizConfig	../quiz/apps.py	/^class QuizConfig(AppConfig):$/;"	kind:class	line:4
+ROOT_URLCONF	../simplesocial/settings.py	/^ROOT_URLCONF = 'simplesocial.urls'$/;"	kind:variable	line:58
+Recursos	../simplesocial/views.py	/^class Recursos(TemplateView):$/;"	kind:class	line:24
+SECRET_KEY	../simplesocial/settings.py	/^SECRET_KEY = '(5qpl&b-b48^jszl@nz02#lgbw%tp(o)_wb!)b&k(j9*kueh@&'$/;"	kind:variable	line:23
+STATICFILES_DIRS	../simplesocial/settings.py	/^STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]$/;"	kind:variable	line:127
+STATIC_URL	../simplesocial/settings.py	/^STATIC_URL = '\/static\/'$/;"	kind:variable	line:126
+SignUp	../accounts/views.py	/^class SignUp(CreateView):$/;"	kind:class	line:7
+SingleGroup	../groups/views.py	/^class SingleGroup(generic.DetailView):$/;"	kind:class	line:18
+TEMPLATES	../simplesocial/settings.py	/^TEMPLATES = [$/;"	kind:variable	line:60
+TEMPLATE_DIR	../simplesocial/settings.py	/^TEMPLATE_DIR = os.path.join(BASE_DIR,'templates')$/;"	kind:variable	line:17
+TIME_ZONE	../simplesocial/settings.py	/^TIME_ZONE = 'UTC'$/;"	kind:variable	line:114
+TestPage	../simplesocial/views.py	/^class TestPage(TemplateView):$/;"	kind:class	line:5
+ThanksPage	../simplesocial/views.py	/^class ThanksPage(TemplateView):$/;"	kind:class	line:8
+USE_I18N	../simplesocial/settings.py	/^USE_I18N = True$/;"	kind:variable	line:116
+USE_L10N	../simplesocial/settings.py	/^USE_L10N = True$/;"	kind:variable	line:118
+USE_TZ	../simplesocial/settings.py	/^USE_TZ = True$/;"	kind:variable	line:120
+User	../accounts/models.py	/^class User(auth.models.User, auth.models.PermissionsMixin):$/;"	kind:class	line:6
+User	../groups/models.py	/^User = get_user_model()$/;"	kind:variable	line:10
+User	../posts/models.py	/^User = get_user_model()$/;"	kind:variable	line:10
+User	../posts/views.py	/^User = get_user_model()$/;"	kind:variable	line:14
+UserCreateForm	../accounts/forms.py	/^class UserCreateForm(UserCreationForm):$/;"	kind:class	line:5
+UserPosts	../posts/views.py	/^class UserPosts(generic.ListView):$/;"	kind:class	line:22
+WSGI_APPLICATION	../simplesocial/settings.py	/^WSGI_APPLICATION = 'simplesocial.wsgi.application'$/;"	kind:variable	line:76
+__init__	../accounts/forms.py	/^    def __init__(self, *args, **kwargs):$/;"	kind:member	line:10
+__init__	../posts/forms.py	/^    def __init__(self, *args, **kwargs):$/;"	kind:member	line:11
+__init__.py	../accounts/__init__.py	1;"	kind:file	line:1
+__init__.py	../accounts/migrations/__init__.py	1;"	kind:file	line:1
+__init__.py	../groups/__init__.py	1;"	kind:file	line:1
+__init__.py	../groups/migrations/__init__.py	1;"	kind:file	line:1
+__init__.py	../posts/__init__.py	1;"	kind:file	line:1
+__init__.py	../posts/migrations/__init__.py	1;"	kind:file	line:1
+__init__.py	../quiz/__init__.py	1;"	kind:file	line:1
+__init__.py	../quiz/migrations/__init__.py	1;"	kind:file	line:1
+__init__.py	../simplesocial/__init__.py	1;"	kind:file	line:1
+__str__	../accounts/models.py	/^    def __str__(self):$/;"	kind:member	line:8
+__str__	../groups/models.py	/^    def __str__(self):$/;"	kind:member	line:26
+__str__	../groups/models.py	/^    def __str__(self):$/;"	kind:member	line:46
+__str__	../posts/models.py	/^    def __str__(self):$/;"	kind:member	line:20
+__str__	../quiz/models.py	/^    def __str__(self):$/;"	kind:member	line:11
+admin.py	../accounts/admin.py	1;"	kind:file	line:1
+admin.py	../groups/admin.py	1;"	kind:file	line:1
+admin.py	../posts/admin.py	1;"	kind:file	line:1
+admin.py	../quiz/admin.py	1;"	kind:file	line:1
+answer	../quiz/models.py	/^    answer = models.CharField(max_length=255, unique=True)$/;"	kind:variable	line:9
+app_name	../accounts/urls.py	/^app_name = 'accounts'$/;"	kind:variable	line:5
+app_name	../groups/urls.py	/^app_name = 'groups'$/;"	kind:variable	line:5
+app_name	../posts/urls.py	/^app_name='posts'$/;"	kind:variable	line:5
+app_name	../quiz/urls.py	/^app_name = 'quiz'$/;"	kind:variable	line:5
+application	../simplesocial/wsgi.py	/^application = get_wsgi_application()$/;"	kind:variable	line:16
+apps.py	../accounts/apps.py	1;"	kind:file	line:1
+apps.py	../groups/apps.py	1;"	kind:file	line:1
+apps.py	../posts/apps.py	1;"	kind:file	line:1
+apps.py	../quiz/apps.py	1;"	kind:file	line:1
+bases	../accounts/migrations/0001_initial.py	/^            bases=('auth.user', models.Model),$/;"	kind:variable	line:30
+created_at	../posts/models.py	/^    created_at = models.DateTimeField(auto_now=True)$/;"	kind:variable	line:15
+delete	../posts/views.py	/^    def delete(self, *args, **kwargs):$/;"	kind:member	line:79
+dependencies	../accounts/migrations/0001_initial.py	/^    dependencies = [$/;"	kind:variable	line:15
+dependencies	../groups/migrations/0001_initial.py	/^    dependencies = [$/;"	kind:variable	line:14
+dependencies	../posts/migrations/0001_initial.py	/^    dependencies = [$/;"	kind:variable	line:14
+dependencies	../quiz/migrations/0001_initial.py	/^    dependencies = [$/;"	kind:variable	line:12
+description	../groups/models.py	/^    description = models.TextField(blank=True, default='')$/;"	kind:variable	line:22
+description_html	../groups/models.py	/^    description_html = models.TextField(editable=False, default='', blank=True)$/;"	kind:variable	line:23
+field	../groups/migrations/0001_initial.py	/^            field=models.ManyToManyField(through='groups.GroupMember', to=settings.AUTH_USER_MODEL),$/;"	kind:variable	line:43
+fields	../accounts/forms.py	/^        fields = ("username", "email", "password1", "password2")$/;"	kind:variable	line:7
+fields	../accounts/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:22
+fields	../groups/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:21
+fields	../groups/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:34
+fields	../groups/views.py	/^    fields = ("name", "description")$/;"	kind:variable	line:15
+fields	../posts/forms.py	/^        fields = ("message", "group")$/;"	kind:variable	line:8
+fields	../posts/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:22
+fields	../posts/views.py	/^    fields = ('message','group')$/;"	kind:variable	line:55
+fields	../quiz/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:18
+form_class	../accounts/views.py	/^    form_class = forms.UserCreateForm$/;"	kind:variable	line:8
+form_valid	../posts/views.py	/^    def form_valid(self, form):$/;"	kind:member	line:63
+forms.py	../accounts/forms.py	1;"	kind:file	line:1
+forms.py	../posts/forms.py	1;"	kind:file	line:1
+get	../groups/views.py	/^    def get(self, request, *args, **kwargs):$/;"	kind:member	line:30
+get	../groups/views.py	/^    def get(self, request, *args, **kwargs):$/;"	kind:member	line:50
+get	../simplesocial/views.py	/^    def get(self, request, *args, **kwargs):$/;"	kind:member	line:14
+get_absolute_url	../groups/models.py	/^    def get_absolute_url(self):$/;"	kind:member	line:34
+get_absolute_url	../posts/models.py	/^    def get_absolute_url(self):$/;"	kind:member	line:27
+get_context_data	../posts/views.py	/^    def get_context_data(self, **kwargs):$/;"	kind:member	line:36
+get_queryset	../posts/views.py	/^    def get_queryset(self):$/;"	kind:member	line:26
+get_queryset	../posts/views.py	/^    def get_queryset(self):$/;"	kind:member	line:46
+get_queryset	../posts/views.py	/^    def get_queryset(self):$/;"	kind:member	line:75
+get_redirect_url	../groups/views.py	/^    def get_redirect_url(self, *args, **kwargs):$/;"	kind:member	line:27
+get_redirect_url	../groups/views.py	/^    def get_redirect_url(self, *args, **kwargs):$/;"	kind:member	line:47
+group	../groups/models.py	/^    group = models.ForeignKey(Group, related_name="memberships")$/;"	kind:variable	line:43
+group	../posts/models.py	/^    group = models.ForeignKey(Group, related_name="posts",null=True, blank=True)$/;"	kind:variable	line:18
+initial	../accounts/migrations/0001_initial.py	/^    initial = True$/;"	kind:variable	line:13
+initial	../groups/migrations/0001_initial.py	/^    initial = True$/;"	kind:variable	line:12
+initial	../posts/migrations/0001_initial.py	/^    initial = True$/;"	kind:variable	line:12
+initial	../quiz/migrations/0001_initial.py	/^    initial = True$/;"	kind:variable	line:10
+manage.py	../manage.py	1;"	kind:file	line:1
+managers	../accounts/migrations/0001_initial.py	/^            managers=[$/;"	kind:variable	line:31
+members	../groups/models.py	/^    members = models.ManyToManyField(User,through="GroupMember")$/;"	kind:variable	line:24
+message	../posts/models.py	/^    message = models.TextField()$/;"	kind:variable	line:16
+message_html	../posts/models.py	/^    message_html = models.TextField(editable=False)$/;"	kind:variable	line:17
+model	../accounts/forms.py	/^        model = get_user_model()$/;"	kind:variable	line:8
+model	../groups/admin.py	/^    model = models.GroupMember$/;"	kind:variable	line:7
+model	../groups/views.py	/^    model = Group$/;"	kind:variable	line:16
+model	../groups/views.py	/^    model = Group$/;"	kind:variable	line:19
+model	../groups/views.py	/^    model = Group$/;"	kind:variable	line:22
+model	../posts/forms.py	/^        model = models.Post$/;"	kind:variable	line:9
+model	../posts/views.py	/^    model = models.Post$/;"	kind:variable	line:18
+model	../posts/views.py	/^    model = models.Post$/;"	kind:variable	line:23
+model	../posts/views.py	/^    model = models.Post$/;"	kind:variable	line:43
+model	../posts/views.py	/^    model = models.Post$/;"	kind:variable	line:56
+model	../posts/views.py	/^    model = models.Post$/;"	kind:variable	line:71
+model	../quiz/views.py	/^    model = models.Question$/;"	kind:variable	line:11
+model_name	../groups/migrations/0001_initial.py	/^            model_name='group',$/;"	kind:variable	line:41
+models.py	../accounts/models.py	1;"	kind:file	line:1
+models.py	../groups/models.py	1;"	kind:file	line:1
+models.py	../posts/models.py	1;"	kind:file	line:1
+models.py	../quiz/models.py	1;"	kind:file	line:1
+name	../accounts/apps.py	/^    name = 'accounts'$/;"	kind:variable	line:5
+name	../accounts/migrations/0001_initial.py	/^            name='User',$/;"	kind:variable	line:21
+name	../groups/apps.py	/^    name = 'groups'$/;"	kind:variable	line:5
+name	../groups/migrations/0001_initial.py	/^            name='Group',$/;"	kind:variable	line:20
+name	../groups/migrations/0001_initial.py	/^            name='GroupMember',$/;"	kind:variable	line:33
+name	../groups/migrations/0001_initial.py	/^            name='groupmember',$/;"	kind:variable	line:46
+name	../groups/migrations/0001_initial.py	/^            name='members',$/;"	kind:variable	line:42
+name	../groups/models.py	/^    name = models.CharField(max_length=255, unique=True)$/;"	kind:variable	line:20
+name	../posts/apps.py	/^    name = 'posts'$/;"	kind:variable	line:5
+name	../posts/migrations/0001_initial.py	/^            name='Post',$/;"	kind:variable	line:21
+name	../posts/migrations/0001_initial.py	/^            name='post',$/;"	kind:variable	line:35
+name	../quiz/apps.py	/^    name = 'quiz'$/;"	kind:variable	line:5
+name	../quiz/migrations/0001_initial.py	/^            name='Question',$/;"	kind:variable	line:17
+operations	../accounts/migrations/0001_initial.py	/^    operations = [$/;"	kind:variable	line:19
+operations	../groups/migrations/0001_initial.py	/^    operations = [$/;"	kind:variable	line:18
+operations	../posts/migrations/0001_initial.py	/^    operations = [$/;"	kind:variable	line:19
+operations	../quiz/migrations/0001_initial.py	/^    operations = [$/;"	kind:variable	line:15
+option1	../quiz/models.py	/^    option1 = models.CharField(max_length=255, unique=True)$/;"	kind:variable	line:6
+option2	../quiz/models.py	/^    option2 = models.CharField(max_length=255, unique=True)$/;"	kind:variable	line:7
+option3	../quiz/models.py	/^    option3 = models.CharField(max_length=255, unique=True)$/;"	kind:variable	line:8
+options	../accounts/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:25
+options	../groups/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:28
+options	../posts/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:30
+ordering	../groups/models.py	/^        ordering = ["name"]$/;"	kind:variable	line:39
+ordering	../posts/models.py	/^        ordering = ["-created_at"]$/;"	kind:variable	line:37
+question	../quiz/models.py	/^    question = models.CharField(max_length=255, unique=True)$/;"	kind:variable	line:5
+register	../groups/models.py	/^register = template.Library()$/;"	kind:variable	line:15
+save	../groups/models.py	/^    def save(self, *args, **kwargs):$/;"	kind:member	line:29
+save	../posts/models.py	/^    def save(self, *args, **kwargs):$/;"	kind:member	line:23
+save	../quiz/models.py	/^    def save(self, *args, **kwargs):$/;"	kind:member	line:14
+select_related	../posts/views.py	/^    select_related = ("user", "group")$/;"	kind:variable	line:19
+select_related	../posts/views.py	/^    select_related = ("user", "group")$/;"	kind:variable	line:44
+select_related	../posts/views.py	/^    select_related = ("user", "group")$/;"	kind:variable	line:72
+settings.py	../simplesocial/settings.py	1;"	kind:file	line:1
+slug	../groups/models.py	/^    slug = models.SlugField(allow_unicode=True, unique=True)$/;"	kind:variable	line:21
+success_url	../accounts/views.py	/^    success_url = reverse_lazy("login")$/;"	kind:variable	line:9
+success_url	../posts/views.py	/^    success_url = reverse_lazy("posts:all")$/;"	kind:variable	line:73
+template_name	../accounts/views.py	/^    template_name = "accounts\/signup.html"$/;"	kind:variable	line:10
+template_name	../posts/views.py	/^    template_name = "posts\/user_post_list.html"$/;"	kind:variable	line:24
+template_name	../quiz/views.py	/^    template_name = 'quiz_list.html'$/;"	kind:variable	line:12
+template_name	../simplesocial/views.py	/^    template_name = "contenido.html"$/;"	kind:variable	line:21
+template_name	../simplesocial/views.py	/^    template_name = "ejercicios.html"$/;"	kind:variable	line:29
+template_name	../simplesocial/views.py	/^    template_name = "index.html"$/;"	kind:variable	line:12
+template_name	../simplesocial/views.py	/^    template_name = "recursos.html"$/;"	kind:variable	line:25
+template_name	../simplesocial/views.py	/^    template_name = 'test.html'$/;"	kind:variable	line:6
+template_name	../simplesocial/views.py	/^    template_name = 'thanks.html'$/;"	kind:variable	line:9
+tests.py	../accounts/tests.py	1;"	kind:file	line:1
+tests.py	../groups/tests.py	1;"	kind:file	line:1
+tests.py	../posts/tests.py	1;"	kind:file	line:1
+tests.py	../quiz/tests.py	1;"	kind:file	line:1
+unique_together	../groups/migrations/0001_initial.py	/^            unique_together=set([('group', 'user')]),$/;"	kind:variable	line:47
+unique_together	../groups/models.py	/^        unique_together = ("group", "user")$/;"	kind:variable	line:50
+unique_together	../posts/migrations/0001_initial.py	/^            unique_together=set([('user', 'message')]),$/;"	kind:variable	line:36
+unique_together	../posts/models.py	/^        unique_together = ["user", "message"]$/;"	kind:variable	line:38
+urlpatterns	../accounts/urls.py	/^urlpatterns = [$/;"	kind:variable	line:7
+urlpatterns	../groups/urls.py	/^urlpatterns = [$/;"	kind:variable	line:7
+urlpatterns	../posts/urls.py	/^urlpatterns = [$/;"	kind:variable	line:7
+urlpatterns	../quiz/urls.py	/^urlpatterns = [$/;"	kind:variable	line:7
+urlpatterns	../simplesocial/urls.py	/^urlpatterns = [$/;"	kind:variable	line:20
+urls.py	../accounts/urls.py	1;"	kind:file	line:1
+urls.py	../groups/urls.py	1;"	kind:file	line:1
+urls.py	../posts/urls.py	1;"	kind:file	line:1
+urls.py	../quiz/urls.py	1;"	kind:file	line:1
+urls.py	../simplesocial/urls.py	1;"	kind:file	line:1
+user	../groups/models.py	/^    user = models.ForeignKey(User,related_name='user_groups')$/;"	kind:variable	line:44
+user	../posts/models.py	/^    user = models.ForeignKey(User, related_name="posts")$/;"	kind:variable	line:14
+views.py	../accounts/views.py	1;"	kind:file	line:1
+views.py	../groups/views.py	1;"	kind:file	line:1
+views.py	../posts/views.py	1;"	kind:file	line:1
+views.py	../quiz/views.py	1;"	kind:file	line:1
+views.py	../simplesocial/views.py	1;"	kind:file	line:1
+wsgi.py	../simplesocial/wsgi.py	1;"	kind:file	line:1

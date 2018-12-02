@@ -20,10 +20,5 @@ class HomePage(TemplateView):
 class Contenido(TemplateView):
     template_name = "contenido.html"
 
-
-class Recursos(TemplateView):
-    template_name = "recursos.html"
-
-
 class Ejercicios(TemplateView):
     template_name = "ejercicios.html"

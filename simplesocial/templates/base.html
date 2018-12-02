@@ -35,8 +35,7 @@
                       <li><a href="{% url 'groups:all' %}" class="btn btn-simple">Foros de Dudas</a></li>
                       <li><a href="{% url 'groups:create' %}" class="btn btn-simple">Crear Foros de Dudas</a></li>
                       <li><a href="{% url 'contenido' %}">Contenido</a></li>
-                      <li><a href="">Recursos</a></li>
-                      <li><a href="">Ejercicios</a></li>
+                      <li><a href="{% url 'ejercicios'%}">Ejercicios</a></li>
                       <li><a href="{% url 'accounts:logout' %}" class="btn btn-simple">Salir</a></li>
     						{% else %}
     						      <li><a href="{% url 'groups:all' %}"class="btn btn-simple">Foros de Dudas</a></li>
