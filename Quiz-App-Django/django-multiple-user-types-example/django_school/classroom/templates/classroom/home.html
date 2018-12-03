@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h2>Bienvenido a los cuestionarios de evaluacion! <span class="icon-emo-happy"></span></h2>
+  <p class="lead">
+    Si ya tienes una cuenta inicia sesion en: <a href="{% url 'login' %}">log in</a>. Si no es asi te puedes registrar en:
+     <a href="{% url 'student_signup' %}">Para un cuenta de estudiante</a> o en <a href="{% url 'teacher_signup' %}">Una cuenta de profesor</a>.
+  </p>
+  <hr>
+{% endblock %}
